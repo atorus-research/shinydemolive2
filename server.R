@@ -18,7 +18,7 @@ function(input, output, session) {
         x    <- faithful[, 2]
         bins <- seq(min(x), max(x), length.out = input$bins + 1)
         
-        stop("Bad error")
+        stop("Extra Bad error")
 
         # draw the histogram with the specified number of bins
         hist(x, breaks = bins, col = 'darkgray', border = 'white',
