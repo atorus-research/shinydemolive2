@@ -20,7 +20,7 @@ function(input, output, session) {
         
         # draw the histogram with the specified number of bins
         hist(x, breaks = bins, col = 'darkgray', border = 'white',
-             xlab = 'Waiting time to next eruption (in mins)',
+             xlab = 'Waiting time to next eruption (in mins) # I MADE AN UPDATE!!!!',
              main = 'Histogram of waiting times')
 
     })
