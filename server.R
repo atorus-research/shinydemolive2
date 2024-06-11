@@ -20,6 +20,10 @@ function(input, output, session) {
         
         stop("Extra Bad error")
 
+        if (TRUE) {
+          stop("Bad.")
+        }
+        
         # draw the histogram with the specified number of bins
         hist(x, breaks = bins, col = 'darkgray', border = 'white',
              xlab = 'Waiting time to next eruption (in mins)',
